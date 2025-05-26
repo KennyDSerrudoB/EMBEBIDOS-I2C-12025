@@ -3,13 +3,13 @@
 
 #include <Arduino.h>
 
-// Inicializa la comunicación I2C en el ESP32 (SDA = GPIO 21, SCL = GPIO 22 por defecto)
+// Inicializa la interfaz I2C del ESP32
 void iniciarComunicacionI2C();
 
-// Solicita una cantidad específica de datos desde un dispositivo esclavo I2C.
-// direccion: dirección del esclavo I2C
-// cantidad: número de bytes a solicitar
-// Devuelve una cadena con los caracteres imprimibles recibidos
+// Solicita y devuelve una cadena de texto desde el esclavo I2C
 String leerDesdeEsclavoI2C(uint8_t direccion, uint8_t cantidad);
+
+// Procesa los datos leídos (IR y distancia), aplica promedio móvil y los muestra por serial
+void procesarLecturaFiltrada(uint8_t direccion, uint8_t cantidad);
 
 #endif
