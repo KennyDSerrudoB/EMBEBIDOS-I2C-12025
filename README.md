@@ -1,7 +1,9 @@
 # EMBEBIDOS-I2C-12025
 ---
 
-## 📂 Datasheets electrónicos agregados (rama SAUL)
+---
+
+##  ~B Datasheets electrónicos agregados (rama SAUL)
 
 Estos documentos se encuentran dentro de la carpeta `DataSheets/`:
 
@@ -9,4 +11,6 @@ Estos documentos se encuentran dentro de la carpeta `DataSheets/`:
 - arduinonano.pdf
 - esp32-wroom-32_datasheet_en.pdf
 - infrarojo.pdf
+
+
 
